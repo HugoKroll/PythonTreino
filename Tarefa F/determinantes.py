@@ -1,6 +1,6 @@
 from mailbox import NotEmptyError
 from re import M
-
+#determinante de uma matris 2x2 a 5x5
 from tkinter import *
 from tkinter.font import BOLD
 import tkinter.messagebox as mbox
@@ -56,6 +56,7 @@ class Janela():
         self.txt44 = Entry()
         self.txt44.place(x=205, y =175, height=20, width =30)
 ##5x5
+
         self.txt15 = Entry()
         self.txt15.place(x=240, y =100, height=20, width =30)
         self.txt25 = Entry()
@@ -66,7 +67,6 @@ class Janela():
         self.txt45.place(x=240, y =175, height=20, width =30)
         self.txt55 = Entry()
         self.txt55.place(x=240, y =200, height=20, width =30)
-
         self.txt51 = Entry()
         self.txt51.place(x=100, y =200, height=20, width =30)
         self.txt52 = Entry()

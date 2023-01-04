@@ -1,6 +1,6 @@
 from mailbox import NotEmptyError
 from re import M
-
+#calculadora trigonométrica
 from tkinter import *
 import tkinter.messagebox as mbox
 import biblioteca as bib

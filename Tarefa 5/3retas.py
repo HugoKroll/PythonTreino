@@ -1,4 +1,5 @@
 import math as m
+##descobrir se duas retas são paralelas ou concorrentes
 print ("Dara as equações das retas r : y = ax + b e s : y = cx + d. Forneça:\n")
 a = float(input("Quoeficiente a: "))
 b = float(input("Quoeficiente b: "))
